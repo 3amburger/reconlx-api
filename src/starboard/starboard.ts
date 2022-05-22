@@ -97,7 +97,7 @@ export class StarboardClient {
                     )
                     .setColor("#fcc444")
                     .setDescription(message.content)
-                    .addField("Source", `[Jump!](${message.url})`)
+                    // .addField("Source", `[Jump!](${message.url})`)
                     .setImage(message.attachments.first()?.url || null)
                     .setFooter({
                         text: `${
